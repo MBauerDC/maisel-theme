@@ -1,6 +1,6 @@
 {
 	"themes": [{
-		"name": "maisel",
+		"name": "maisel-theme",
 		"types": [ "login" ]
 	}]
 }
