@@ -1,0 +1,36 @@
+
+@each $spacer in map-keys($spacers) {
+  .margin--#{$spacer} {
+    margin: map-get($spacers, $spacer);
+  }
+  .marginTop--#{$spacer} {
+    margin-top: map-get($spacers, $spacer);
+  }
+  .marginLeft--#{$spacer} {
+    margin-left: map-get($spacers, $spacer);
+  }
+  .marginRight--#{$spacer} {
+    margin-right: map-get($spacers, $spacer);
+  }
+  .marginBottom--#{$spacer} {
+    margin-bottom: map-get($spacers, $spacer);
+  }
+}
+
+@each $spacer in map-keys($spacers) {
+  .padding--#{$spacer} {
+    padding: map-get($spacers, $spacer);
+  }
+  .paddingTop--#{$spacer} {
+    padding-top: map-get($spacers, $spacer);
+  }
+  .paddingLeft--#{$spacer} {
+    padding-left: map-get($spacers, $spacer);
+  }
+  .paddingRight--#{$spacer} {
+    padding-right: map-get($spacers, $spacer);
+  }
+  .paddingBottom--#{$spacer} {
+    padding-bottom: map-get($spacers, $spacer);
+  }
+}

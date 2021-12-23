@@ -1,0 +1,71 @@
+// Colors
+$white: #FAF8F6;
+$black: #202020;
+$gray-base: #A1A1A0;
+$dark-gray: $gray-base;
+$light-gray: #F1F0EE;
+$brand-primary: #D80909;
+$brand-action: $brand-primary;
+$brand-danger: #ee0202;
+$brand-warning: #FFC314;
+$brand-success: #87BE4B;
+$brand-info: $gray-base;
+
+$screen-xxs: 0;
+$screen-xs: 481px;
+$screen-sm: 768px;
+$screen-md: 1024px;
+$screen-lg: 1250px;
+$screen-xl: 1540px;
+
+// Spacer
+$spacer: 10px !default;
+$spacer-base: $spacer;
+$spacer-xsmall: $spacer * 0.5;
+$spacer-small: $spacer * 2;
+$spacer-large: $spacer * 4;
+$spacer-xlarge: $spacer * 6;
+
+$body-background: $light-gray;
+$headings-color: $black;
+$input-border-color: $light-gray;
+
+// Typo
+
+$text-base: $black;
+$link: $black;
+$link-hover: $brand-primary;
+$link-decoration: underline;
+
+$font-family-base: "Montserrat", Helvetica, Arial, sans-serif;
+$font-family-2: "Oswald", Helvetica, Arial, sans-serif;
+
+$font-size-base: 16px;
+$font-weight-base: 400;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+
+$line-height-base: 1.6;
+$line-height-computed: floor(($font-size-base * $line-height-base));
+
+$headings-font-family: $font-family-base;
+$headings-font-weight: $font-weight-base;
+$headings-line-height: $line-height-base;
+
+$font-size-h1: 32px;
+$font-size-h2: 18px;
+$font-size-h3: 16px;
+$font-size-h4: 15px;
+$font-size-h5: 14px;
+$font-size-h6: $font-size-base;
+
+$screen-xxs-max: $screen-xs - 1;
+$screen-xs-max: $screen-sm - 1;
+$screen-sm-max: $screen-md - 1;
+$screen-md-max: $screen-lg - 1;
+$screen-lg-max: $screen-xl - 1;
+
+$widthFormLabel: 170px;
+
+$shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.2);
+$shadowSidebars: 0 5px 10px lighten(#000000, 80);
