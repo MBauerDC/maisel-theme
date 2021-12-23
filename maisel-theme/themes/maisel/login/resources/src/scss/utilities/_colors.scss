@@ -1,0 +1,18 @@
+
+@each $color in map-keys($colors) {
+  .color-#{$color} {
+    color: map-get($colors, $color);
+  }
+}
+
+@each $color in map-keys($colors) {
+  .bg-#{$color} {
+    color: map-get($colors, $color);
+  }
+}
+
+@each $color in map-keys($colors) {
+  .border-#{$color} {
+    color: map-get($colors, $color);
+  }
+}

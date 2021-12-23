@@ -1,0 +1,33 @@
+{
+  "name": "maisellogin",
+  "version": "1.0.0",
+  "description": "Theme for keycloak login",
+  "author": "Martin Banasiak",
+  "license": "ISC",
+  "homepage": "http://www.dc.ag",
+  "scripts": {
+    "start": "gulp",
+    "production": "gulp public"
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "devDependencies": {
+    "browserslist": "^4.7.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-cli": "^2.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-iconfont": "^10.0.3",
+    "gulp-iconfont-css": "^3.0.0",
+    "node-sass": "^4.13.0",
+    "node-sass-tilde-importer": "^1.0.2"
+  }
+}

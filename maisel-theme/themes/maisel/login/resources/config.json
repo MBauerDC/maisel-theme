@@ -1,0 +1,12 @@
+{
+  "layout": {
+    "src": "src",
+    "build": "build",
+    "dist": "dist",
+    "css": "style",
+    "js": "script"
+  },
+  "iconfont": {
+    "name": "icons"
+  }
+}

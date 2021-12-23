@@ -1,0 +1,566 @@
+@font-face {
+  font-family: "icons";
+  src: url('../fonts/icons/icons.woff2') format('woff2'),
+  url('../fonts/icons/icons.woff') format('woff');
+}
+
+$angle-down: "\E001";
+$angle-left: "\E002";
+$angle-right: "\E003";
+$angle-up: "\E004";
+$arrow-down: "\E005";
+$arrow-left: "\E006";
+$arrow-right: "\E007";
+$arrow-up: "\E008";
+$basket: "\E009";
+$beer: "\E00A";
+$chat: "\E00B";
+$check-circle: "\E00C";
+$check: "\E00D";
+$clock: "\E00E";
+$close: "\E00F";
+$date: "\E010";
+$desktop: "\E011";
+$document-archive: "\E012";
+$download: "\E013";
+$drag-drop: "\E014";
+$eat: "\E015";
+$exclamation-circle: "\E016";
+$exclamation: "\E017";
+$eye: "\E018";
+$facebook: "\E019";
+$fax: "\E01A";
+$file-doc: "\E01B";
+$file-document: "\E01C";
+$file-image: "\E01D";
+$file-pdf: "\E01E";
+$file-powerpoint: "\E01F";
+$file-video: "\E020";
+$file-xls: "\E021";
+$filter: "\E022";
+$globe: "\E023";
+$heart: "\E024";
+$home: "\E025";
+$hopfen: "\E026";
+$info: "\E027";
+$info2: "\E028";
+$instagram: "\E029";
+$linkedin: "\E02A";
+$lock: "\E02B";
+$login: "\E02C";
+$logout: "\E02D";
+$mail: "\E02E";
+$map-pin: "\E02F";
+$mastercard: "\E030";
+$minus: "\E031";
+$payment: "\E032";
+$paypal: "\E033";
+$phone: "\E034";
+$play: "\E035";
+$plus: "\E036";
+$print: "\E037";
+$question: "\E038";
+$rechnung: "\E039";
+$reload: "\E03A";
+$room: "\E03B";
+$search: "\E03C";
+$settings: "\E03D";
+$settings_1: "\E03E";
+$shield: "\E03F";
+$shipping: "\E040";
+$star: "\E041";
+$table: "\E042";
+$thermometer: "\E043";
+$ticket: "\E044";
+$time: "\E045";
+$train: "\E046";
+$trash: "\E047";
+$twitter: "\E048";
+$upload: "\E049";
+$user: "\E04A";
+$users: "\E04B";
+$visa: "\E04C";
+$water: "\E04D";
+$xing: "\E04E";
+$youtube: "\E04F";
+
+
+
+.icon-angle-down:before {
+  content:$angle-down;
+};
+
+.icon-angle-left:before {
+  content:$angle-left;
+};
+
+.icon-angle-right:before {
+  content:$angle-right;
+};
+
+.icon-angle-up:before {
+  content:$angle-up;
+};
+
+.icon-arrow-down:before {
+  content:$arrow-down;
+};
+
+.icon-arrow-left:before {
+  content:$arrow-left;
+};
+
+.icon-arrow-right:before {
+  content:$arrow-right;
+};
+
+.icon-arrow-up:before {
+  content:$arrow-up;
+};
+
+.icon-basket:before {
+  content:$basket;
+};
+
+.icon-beer:before {
+  content:$beer;
+};
+
+.icon-chat:before {
+  content:$chat;
+};
+
+.icon-check-circle:before {
+  content:$check-circle;
+};
+
+.icon-check:before {
+  content:$check;
+};
+
+.icon-clock:before {
+  content:$clock;
+};
+
+.icon-close:before {
+  content:$close;
+};
+
+.icon-date:before {
+  content:$date;
+};
+
+.icon-desktop:before {
+  content:$desktop;
+};
+
+.icon-document-archive:before {
+  content:$document-archive;
+};
+
+.icon-download:before {
+  content:$download;
+};
+
+.icon-drag-drop:before {
+  content:$drag-drop;
+};
+
+.icon-eat:before {
+  content:$eat;
+};
+
+.icon-exclamation-circle:before {
+  content:$exclamation-circle;
+};
+
+.icon-exclamation:before {
+  content:$exclamation;
+};
+
+.icon-eye:before {
+  content:$eye;
+};
+
+.icon-facebook:before {
+  content:$facebook;
+};
+
+.icon-fax:before {
+  content:$fax;
+};
+
+.icon-file-doc:before {
+  content:$file-doc;
+};
+
+.icon-file-document:before {
+  content:$file-document;
+};
+
+.icon-file-image:before {
+  content:$file-image;
+};
+
+.icon-file-pdf:before {
+  content:$file-pdf;
+};
+
+.icon-file-powerpoint:before {
+  content:$file-powerpoint;
+};
+
+.icon-file-video:before {
+  content:$file-video;
+};
+
+.icon-file-xls:before {
+  content:$file-xls;
+};
+
+.icon-filter:before {
+  content:$filter;
+};
+
+.icon-globe:before {
+  content:$globe;
+};
+
+.icon-heart:before {
+  content:$heart;
+};
+
+.icon-home:before {
+  content:$home;
+};
+
+.icon-hopfen:before {
+  content:$hopfen;
+};
+
+.icon-info:before {
+  content:$info;
+};
+
+.icon-info2:before {
+  content:$info2;
+};
+
+.icon-instagram:before {
+  content:$instagram;
+};
+
+.icon-linkedin:before {
+  content:$linkedin;
+};
+
+.icon-lock:before {
+  content:$lock;
+};
+
+.icon-login:before {
+  content:$login;
+};
+
+.icon-logout:before {
+  content:$logout;
+};
+
+.icon-mail:before {
+  content:$mail;
+};
+
+.icon-map-pin:before {
+  content:$map-pin;
+};
+
+.icon-mastercard:before {
+  content:$mastercard;
+};
+
+.icon-minus:before {
+  content:$minus;
+};
+
+.icon-payment:before {
+  content:$payment;
+};
+
+.icon-paypal:before {
+  content:$paypal;
+};
+
+.icon-phone:before {
+  content:$phone;
+};
+
+.icon-play:before {
+  content:$play;
+};
+
+.icon-plus:before {
+  content:$plus;
+};
+
+.icon-print:before {
+  content:$print;
+};
+
+.icon-question:before {
+  content:$question;
+};
+
+.icon-rechnung:before {
+  content:$rechnung;
+};
+
+.icon-reload:before {
+  content:$reload;
+};
+
+.icon-room:before {
+  content:$room;
+};
+
+.icon-search:before {
+  content:$search;
+};
+
+.icon-settings:before {
+  content:$settings;
+};
+
+.icon-settings_1:before {
+  content:$settings_1;
+};
+
+.icon-shield:before {
+  content:$shield;
+};
+
+.icon-shipping:before {
+  content:$shipping;
+};
+
+.icon-star:before {
+  content:$star;
+};
+
+.icon-table:before {
+  content:$table;
+};
+
+.icon-thermometer:before {
+  content:$thermometer;
+};
+
+.icon-ticket:before {
+  content:$ticket;
+};
+
+.icon-time:before {
+  content:$time;
+};
+
+.icon-train:before {
+  content:$train;
+};
+
+.icon-trash:before {
+  content:$trash;
+};
+
+.icon-twitter:before {
+  content:$twitter;
+};
+
+.icon-upload:before {
+  content:$upload;
+};
+
+.icon-user:before {
+  content:$user;
+};
+
+.icon-users:before {
+  content:$users;
+};
+
+.icon-visa:before {
+  content:$visa;
+};
+
+.icon-water:before {
+  content:$water;
+};
+
+.icon-xing:before {
+  content:$xing;
+};
+
+.icon-youtube:before {
+  content:$youtube;
+};
+
+
+/*
+
+<i class="icon icon-angle-down"></i>
+
+<i class="icon icon-angle-left"></i>
+
+<i class="icon icon-angle-right"></i>
+
+<i class="icon icon-angle-up"></i>
+
+<i class="icon icon-arrow-down"></i>
+
+<i class="icon icon-arrow-left"></i>
+
+<i class="icon icon-arrow-right"></i>
+
+<i class="icon icon-arrow-up"></i>
+
+<i class="icon icon-basket"></i>
+
+<i class="icon icon-beer"></i>
+
+<i class="icon icon-chat"></i>
+
+<i class="icon icon-check-circle"></i>
+
+<i class="icon icon-check"></i>
+
+<i class="icon icon-clock"></i>
+
+<i class="icon icon-close"></i>
+
+<i class="icon icon-date"></i>
+
+<i class="icon icon-desktop"></i>
+
+<i class="icon icon-document-archive"></i>
+
+<i class="icon icon-download"></i>
+
+<i class="icon icon-drag-drop"></i>
+
+<i class="icon icon-eat"></i>
+
+<i class="icon icon-exclamation-circle"></i>
+
+<i class="icon icon-exclamation"></i>
+
+<i class="icon icon-eye"></i>
+
+<i class="icon icon-facebook"></i>
+
+<i class="icon icon-fax"></i>
+
+<i class="icon icon-file-doc"></i>
+
+<i class="icon icon-file-document"></i>
+
+<i class="icon icon-file-image"></i>
+
+<i class="icon icon-file-pdf"></i>
+
+<i class="icon icon-file-powerpoint"></i>
+
+<i class="icon icon-file-video"></i>
+
+<i class="icon icon-file-xls"></i>
+
+<i class="icon icon-filter"></i>
+
+<i class="icon icon-globe"></i>
+
+<i class="icon icon-heart"></i>
+
+<i class="icon icon-home"></i>
+
+<i class="icon icon-hopfen"></i>
+
+<i class="icon icon-info"></i>
+
+<i class="icon icon-info2"></i>
+
+<i class="icon icon-instagram"></i>
+
+<i class="icon icon-linkedin"></i>
+
+<i class="icon icon-lock"></i>
+
+<i class="icon icon-login"></i>
+
+<i class="icon icon-logout"></i>
+
+<i class="icon icon-mail"></i>
+
+<i class="icon icon-map-pin"></i>
+
+<i class="icon icon-mastercard"></i>
+
+<i class="icon icon-minus"></i>
+
+<i class="icon icon-payment"></i>
+
+<i class="icon icon-paypal"></i>
+
+<i class="icon icon-phone"></i>
+
+<i class="icon icon-play"></i>
+
+<i class="icon icon-plus"></i>
+
+<i class="icon icon-print"></i>
+
+<i class="icon icon-question"></i>
+
+<i class="icon icon-rechnung"></i>
+
+<i class="icon icon-reload"></i>
+
+<i class="icon icon-room"></i>
+
+<i class="icon icon-search"></i>
+
+<i class="icon icon-settings"></i>
+
+<i class="icon icon-settings_1"></i>
+
+<i class="icon icon-shield"></i>
+
+<i class="icon icon-shipping"></i>
+
+<i class="icon icon-star"></i>
+
+<i class="icon icon-table"></i>
+
+<i class="icon icon-thermometer"></i>
+
+<i class="icon icon-ticket"></i>
+
+<i class="icon icon-time"></i>
+
+<i class="icon icon-train"></i>
+
+<i class="icon icon-trash"></i>
+
+<i class="icon icon-twitter"></i>
+
+<i class="icon icon-upload"></i>
+
+<i class="icon icon-user"></i>
+
+<i class="icon icon-users"></i>
+
+<i class="icon icon-visa"></i>
+
+<i class="icon icon-water"></i>
+
+<i class="icon icon-xing"></i>
+
+<i class="icon icon-youtube"></i>
+
+*/
