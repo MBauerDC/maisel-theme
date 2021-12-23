@@ -1,7 +1,7 @@
 {
-	"themes": [{
-		"name": "maisel-theme",
-		"types": [ "login" ]
-	}]
+    "themes": [{
+	"name": "maisel-theme",
+	"types": [ "login" ]
+    }]
 }
 
