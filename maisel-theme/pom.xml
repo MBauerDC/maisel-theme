@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>ag.dc</groupId>
 	<artifactId>maisel-theme</artifactId>
-	<version>0.8.0</version>
+	<version>0.9.0</version>
 	<name>maisel-theme</name>
 	<description />
 </project>
